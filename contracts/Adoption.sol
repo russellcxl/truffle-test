@@ -18,6 +18,7 @@ contract Adoption {
     }
 
     // Retrieving the adopters
+    // memory type is like a pointer
     function getAdopters() public view returns (address[16] memory) {
         return adopters;
     }
